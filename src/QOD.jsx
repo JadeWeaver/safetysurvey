@@ -109,7 +109,7 @@ export default function () {
     ]
     const nQuestion = Math.floor((Math.random() * questions.length));
     const surveyJson = {
-        title: "Wildlife Safety",
+        title: "Wildlife Safety Survey",
         showCorrectAnswer: "always",
         showProgressBar: "bottom",
         firstPageIsStarted: true,
