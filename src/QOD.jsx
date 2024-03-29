@@ -8,11 +8,11 @@ export default function () {
         {
             type: "radiogroup",
                 name: "question1",
-                title: "What is the most common cause of lifeguard injuries?",
+                title: "What action is unsafe due to the chances of causing unwanted wildlife encounters?",
                 choices: [
-                    "Slip and fall accidents", "Pool chemicals", "Sunburns", "Sharks"
+                    "Wearing dark colored clothing while hiking", "Swimming in lakes/rivers in wooded areas", "Wearing headphones while hiking", "Hiking after dark"
                 ],
-                correctAnswer: "Slip and fall accidents"
+                correctAnswer: "Wearing headphones while hiking"
             },
             {
             type: "radiogroup",
@@ -71,11 +71,38 @@ export default function () {
             {
             type: "radiogroup",
                 name: "question7",
-                title: "If you see a bear while hiking, and it hasn't seen you, what should you do?",
+                title: "What type of wild animal is safe to touch?",
                 choices: [
-                    "Calmly and slowly back away while facing the bear", "Yell and wave your arms above your head to make yourself seem larger", "Run away", "Lie flat on the ground and hide yourself from it"
+                    "Non-dangerous animals like rabbits or squirrels", "None", "Animals that approach you first", "Cute ones"
                 ],
-                correctAnswer: "Calmly and slowly back away while facing the bear"
+                correctAnswer: "None"
+            },
+            {
+            type: "radiogroup",
+                name: "question8",
+                title: "What should you do if a moose approaches your car?",
+                choices: [
+                    "Slowly drive away while avoiding loud noises", "Honk your horn to scare it away", "Quickly drive away and leave the area", "Stop the car and wait for the moose to leave"
+                ],
+                correctAnswer: "Slowly drive away while avoiding loud noises"
+            },
+            {
+            type: "radiogroup",
+                name: "question9",
+                title: "When is it safe to feed wild animals?",
+                choices: [
+                    "If they are injured or sick", "If they are babies", "If they are not dangerous animals", "Never"
+                ],
+                correctAnswer: "Never"
+            },
+            {
+            type: "radiogroup",
+                name: "question10",
+                title: "Which animal can transmit rabies to humans?",
+                choices: [
+                    "Bear", "Raccoon", "Bat", "All of the above"
+                ],
+                correctAnswer: "All of the above"
             }
             
             
