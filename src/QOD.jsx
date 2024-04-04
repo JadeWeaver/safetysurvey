@@ -117,7 +117,7 @@ export default function () {
         pages: [{
             elements: [{
                 type: "html",
-                html: "You are about to start a quiz on Lifeguard Safety. <br>You will have 30 seconds for every question and 60 seconds to end the quiz.<br>Enter your name below and click <b>Start Quiz</b> to begin."
+                html: "You are about to start a quiz on Wildlife Safety. <br>You will have 30 seconds for every question and 60 seconds to end the quiz.<br>Enter your name below and click <b>Start Quiz</b> to begin."
             }, {
                 type: "text",
                 name: "username",
